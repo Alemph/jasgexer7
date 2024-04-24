@@ -5,7 +5,23 @@ body {
     padding: 20px;
     color: #333;
 }
+.sidebar h3 {
+    cursor: pointer;
+}
 
+.sidebar h3:hover {
+    color: #0275d8; /* Just an example color */
+}
+
+/* Style for hiding the lists */
+#favoriteSongs, #favoriteQuotes, #favoriteFoods {
+    display: none; /* They will be displayed by the JavaScript when their section is clicked */
+}
+
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
 h1 {
     color: #333;
 }

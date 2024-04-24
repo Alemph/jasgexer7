@@ -3,19 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Food Cards App</title>
+    <title>Favorites App</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    <h1>Food Cards Application</h1>
-    <form id="foodForm">
-        <input type="text" id="foodName" placeholder="Food Name" required>
-        <input type="text" id="description" placeholder="Description" required>
-        <input type="text" id="imageUrl" placeholder="Image URL" required>
-        <input type="number" id="rank" placeholder="Rank" required>
-        <button type="submit">Submit</button>
-    </form>
-    <div id="cardsContainer"></div>
+    <div class="sidebar">
+        <h2>Favorites</h2>
+        <div id="favoriteSongsSection"><h3>Favorite Songs</h3></div>
+        <div id="favoriteQuotesSection"><h3>Favorite Quotes</h3></div>
+        <div id="favoriteFoodsSection"><h3>Favorite Foods</h3></div>
+    </div>
+
+    <main id="mainContent">
+        <!-- The content here will change dynamically based on the sidebar selection -->
+    </main>
 
     <script src="js/form.js"></script>
 </body>
